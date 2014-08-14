@@ -111,6 +111,7 @@ nav #publicar_nav a
 #contenido .item
 {
 	background: white;	
+	position: relative;
 	border-bottom: 3px #22BCE0 solid; /*Liena azul debajo del cuadro*/
 }
 
@@ -127,7 +128,7 @@ nav #publicar_nav a
 #contenido .item .imagen_item 
 {
 	float:left;
-	margin: 1em ; /* espacio del caballo con los elementos*/
+    margin: 0 1em 0 0; /* espacio del caballo con los elementos*/
 }
 
 #contenido .item .imagen_item img
@@ -151,6 +152,17 @@ nav #publicar_nav a
 {
 	color: #7A7A7A;
 	font-size: 0.9em;
+}
+
+#contenido .item .votacion
+{
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	margin: 3px 0 0 0;
+	padding: 0.5em 0;
+	position:absolute;
+	text-align:center ;
+	width: 96px; /* Ancho del borde que debe ser igual que de la foto *//
 }
 
 #footer_item
